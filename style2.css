@@ -1,0 +1,156 @@
+body{
+    height: 100vh;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/16006346-87f9-4226-bc25-a1fb346a2b0c/9662d0fd-0547-4665-b887-771617268815/IN-en-20240115-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+}
+ img{
+    width: 250px;
+    height: 120px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    background: #000000bf;
+    width: 450px;
+    /* margin: 0 auto; */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+}
+.container .box .inp input{
+    width: 100%;
+    height: 50px;
+    margin: 15px 0px;
+    background: #333333;
+    color: #8c8c8c;
+    outline: none;
+    border: 1px solid #333333;
+    font-size: 16px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+h2{
+    color: #ffffff;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.container .box .btn button{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background: #e50914;
+    color:#ffffff;
+    outline: none;
+    border: 1px solid #e50914;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.container .box .remember{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+   
+}
+.container .box .remember a{
+    color: #b3b3b3;
+}
+.container .box .up{
+    display: flex;
+    margin-bottom: 10px;
+}
+.container .box .up .new a{
+    color: #737373;
+}
+.container .box .up .old a{
+    color: #ffffff;
+}
+.container .box{
+    /* margin: 0px 0px 90px; */
+    padding: 60px 68px 40px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container .box a{
+    text-decoration: none;
+    
+}
+.container .box .bp p{
+    color: #737373;
+    font-size: 15px;
+}
+footer{
+    background: #000000bf;
+    width: 100%;
+    padding: 20px ;
+    
+   
+}
+footer .foott{
+padding-top: 20px;
+margin: 0px 0px 30px;
+
+}
+footer .foot a{
+
+width: 25%;
+}
+footer .foot1 a{
+  
+    width: 25%;
+}
+footer .foot{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap:20px;
+    margin-bottom:20px;    
+}
+footer a{
+    text-decoration: none;
+    color: #737373;
+    width: 25%;
+    display: inline-block;
+}
+footer .btnn button{
+    width: 119px;
+    height: 49px;
+    background: #000000;
+    color: #737373;
+    border: 1px solid #737373;
+    outline: none;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background: #000000;
+    }
+
+  body .image img{
+        width: 166px;
+        height: 45px;
+        margin: 0px 0px 0px 18px;
+    }
+    .container .box{
+        width: 540px;
+        height: 550px;
+        padding: 0px 30px;
+    }
+    footer .foot a{
+       width: 50%;
+       
+    }
+  
+
+}
+ 
+    
